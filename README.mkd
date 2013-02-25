@@ -10,7 +10,7 @@ You can get growlnotify ver 2.x from following url.
 
 http://growl.info/downloads#generaldownloads
 
-I reccomend to use NeoBundle.vim to manage Vim Plugins.
+Second, of course you need to install Shiraseru.vim. I reccomend to use NeoBundle.vim to manage Vim Plugins.
 If you are using NeoBundle.vim, you only need to write following lines to your .vimrc and just execute :NeoBundleInstall.
 
     NeoBundle 'supermomonga/shiraberu.vim', {'depends' : 'Shougo/vimproc'}
