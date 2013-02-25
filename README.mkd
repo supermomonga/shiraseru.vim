@@ -1,0 +1,27 @@
+# Shiraseru.vim
+
+Shiraseru.vim is growlnotify wrapper for MacVim.
+
+
+# Installation
+
+First, you need to install Growl from AppStore and also install growlnotify.
+You can get growlnotify ver 2.x from following url.
+
+http://growl.info/downloads#generaldownloads
+
+I reccomend to use NeoBundle.vim to manage Vim Plugins.
+If you are using NeoBundle.vim, you only need to write following lines to your .vimrc and just execute :NeoBundleInstall.
+
+    NeoBundle 'supermomonga/shiraberu.vim', {'depends' : 'Shougo/vimproc'}
+
+# Usage
+
+## Message only
+    :call shiraseru#notify('Message')
+
+## Title and message
+    :call shiraseru#notify('Title', 'Message')
+
+## Add options
+    :call shiraseru#notify('Title', 'Message', {'appIcon' : '/Applications/MacVim.app'})
